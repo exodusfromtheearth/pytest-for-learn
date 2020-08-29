@@ -1,0 +1,24 @@
+---
+#funding_com_3:
+  later: True
+  company_id: 16848
+  is_open: True
+  category: 1
+  funding_type: 11
+  amount_level: 99
+  currency: 1
+  source_type: 1
+  is_listed: False
+  is_cue_company: False
+  round_id: 0
+---
+#funding_com_2:
+---
+#funding_com_3:
+  type: info
+  category: 1
+  funding_type: 11
+  amount_level: 99
+  currency: 1
+  is_open: True
+  round_id: 0

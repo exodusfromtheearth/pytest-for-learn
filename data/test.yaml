@@ -1,0 +1,17 @@
+#for example
+#funding
+  url: http://test5.huaxing.com/api/v2/fundings/get_funding_list
+  method: get
+  data:
+    type: mine
+    status: execution
+  expect: zhunbeiqidong
+---
+  url: http://test5.huaxing.com/api/v2/fundings/get_funding_list
+  method: get
+  data:
+    type: all
+    status: execution
+  expect: zhunbeiqidong
+
+

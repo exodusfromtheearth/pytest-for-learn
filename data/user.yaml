@@ -1,0 +1,431 @@
+  /users:
+    get:
+      summary: 获取所有用户
+      description: 获取所有用户
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: bu_id
+          description: 部门id
+          type: integer
+          format: int32
+          required: false
+        - in: query
+          name: query
+          description: 检索姓名
+          type: string
+          required: false
+        - in: query
+          name: layout
+          description: 样式
+          type: string
+          default: index
+          enum:
+            - lite
+            - index
+          required: false
+      responses:
+        '200':
+          description: 获取所有用户
+          schema:
+            $ref: '#/definitions/UserForIndex'
+      tags:
+        - users
+      operationId: getUsers
+
+  /users/unproxy:
+    post:
+      summary: 退出代理
+      description: 退出代理
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      responses:
+        '201':
+          description: 退出代理
+      tags:
+        - users
+      operationId: postUsersUnproxy
+
+  /users/logout:
+    post:
+      summary: 登出
+      description: 登出
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      responses:
+        '201':
+          description: 登出
+      tags:
+        - users
+      operationId: postUsersLogout
+
+  /users/me:
+    get:
+      summary: 获取当前登录用户
+      description: 获取当前登录用户
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 获取当前登录用户
+          schema:
+            $ref: '#/definitions/UserMyCurrent'
+      tags:
+        - users
+      operationId: getUsersMe
+
+  '/users/{id}/my_kpi':
+    get:
+      summary: 我的kpi
+      description: 我的kpi
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: year
+          description: 年度
+          type: integer
+          format: int32
+          default: 2020
+          required: true
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 我的kpi
+      tags:
+        - users
+      operationId: getUsersIdMyKpi
+
+  '/users/{id}/user_title':
+    patch:
+      summary: 更新对外title
+      description: 更新对外title
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: formData
+          name: user_title_id
+          description: 对外title
+          type: integer
+          format: int32
+          required: true
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 更新对外title
+          schema:
+            $ref: '#/definitions/UserTitle'
+      tags:
+        - users
+      operationId: patchUsersIdUserTitle
+
+  '/users/{id}/leader':
+    patch:
+      summary: 更新上级负责人
+      description: 更新上级负责人
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: formData
+          name: leader_id
+          description: 上级负责人
+          type: integer
+          format: int32
+          required: true
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 更新上级负责人
+          schema:
+            $ref: '#/definitions/UserLite'
+      tags:
+        - users
+      operationId: patchUsersIdLeader
+
+  '/users/{id}/role':
+    delete:
+      summary: 删除一个权限组
+      description: 删除一个权限组
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: role_id
+          description: 权限组
+          type: integer
+          format: int32
+          required: false
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 删除一个权限组
+          schema:
+            $ref: '#/definitions/Role'
+      tags:
+        - users
+      operationId: deleteUsersIdRole
+    post:
+      summary: 增加一个权限组
+      description: 增加一个权限组
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: formData
+          name: role_id
+          description: 权限组
+          type: integer
+          format: int32
+          required: false
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '201':
+          description: 增加一个权限组
+          schema:
+            $ref: '#/definitions/Role'
+      tags:
+        - users
+      operationId: postUsersIdRole
+
+  '/users/{id}/roles':
+    patch:
+      summary: 更新用户权限组
+      description: 更新用户权限组
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: formData
+          name: 'ids[]'
+          description: 权限组
+          type: array
+          items:
+            type: string
+          required: false
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 更新用户权限组
+          schema:
+            $ref: '#/definitions/Role'
+      tags:
+        - users
+      operationId: patchUsersIdRoles
+    get:
+      summary: 已选权限组
+      description: 已选权限组
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 已选权限组
+          schema:
+            $ref: '#/definitions/Role'
+      tags:
+        - users
+      operationId: getUsersIdRoles
+
+  '/users/{id}/resources':
+    get:
+      summary: 已选权限点
+      description: 已选权限点
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 已选权限点
+          schema:
+            $ref: '#/definitions/Resource'
+      tags:
+        - users
+      operationId: getUsersIdResources
+
+  '/users/{id}/proxy':
+    post:
+      summary: 代理
+      description: 代理
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '201':
+          description: 代理
+      tags:
+        - users
+      operationId: postUsersIdProxy
+
+  '/users/{id}/login':
+    post:
+      summary: 登录
+      description: 登录
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '201':
+          description: 登录
+      tags:
+        - users
+      operationId: postUsersIdLogin
+
+  '/users/{id}':
+    patch:
+      summary: 更新用户
+      description: 更新用户
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: formData
+          name: 'avatar_file[blob_id]'
+          description: blob_id 新文件id
+          type: integer
+          format: int32
+          required: false
+        - in: formData
+          name: tel
+          description: 手机
+          type: string
+          required: false
+        - in: formData
+          name: wechat
+          description: 微信
+          type: string
+          required: false
+        - in: formData
+          name: user_title_id
+          description: title_id
+          type: integer
+          format: int32
+          required: false
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 更新用户
+          schema:
+            $ref: '#/definitions/UserForShow'
+      tags:
+        - users
+      operationId: patchUsersId
+    get:
+      summary: 获取用户
+      description: 获取用户
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          type: integer
+          format: int32
+          required: true
+      responses:
+        '200':
+          description: 获取用户
+      tags:
+        - users
+      operationId: getUsersId
+
+  /common/current_currency:
+    get:
+      summary: 实时汇率USD/RMB
+      description: 实时汇率USD/RMB
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 实时汇率USD/RMB
+      tags:
+        - common
+      operationId: getCommonCurrentCurrency
+
+  /common/head_search:
+    get:
+      summary: 顶部搜索（假）
+      description: 顶部搜索（假）
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 顶部搜索（假）
+      tags:
+        - common
+      operationId: getCommonHeadSearch
+
+  /common/dict:
+    get:
+      summary: 字典
+      description: 字典
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 字典
+      tags:
+        - common
+      operationId: getCommonDict
