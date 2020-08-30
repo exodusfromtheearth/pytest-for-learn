@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6c0a3d5-dd92-4be3-b567-8f6bfc1a06d2" name="Default" comment="pycharm commit test">
+    <list default="true" id="f6c0a3d5-dd92-4be3-b567-8f6bfc1a06d2" name="Default" comment="pycharm test first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/ApiTest_yoyo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ApiTest_yoyo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/operationExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/operationExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +83,7 @@
       <recent name="E:\桌面文档\API\ApiTest\params" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.operationExcel">
+  <component name="RunManager" selected="Python tests.pytest in for_example.py">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="ApiTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,9 +159,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/python38/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -177,9 +181,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/python38/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -199,9 +203,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/python38/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -315,12 +319,12 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in for_example.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ApiTest_yoyo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -328,7 +332,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/web/test01.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/for_example.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -337,15 +341,15 @@
       <item itemvalue="Python.method" />
       <item itemvalue="Python.filepublic" />
       <item itemvalue="Python.operationYaml" />
-      <item itemvalue="Python tests.pytest in test01.py" />
+      <item itemvalue="Python tests.pytest in for_example.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in for_example.py" />
         <item itemvalue="Python.operationExcel" />
-        <item itemvalue="Python.operationYaml" />
-        <item itemvalue="Python.filepublic" />
         <item itemvalue="Python.method" />
-        <item itemvalue="Python tests.pytest in test01.py" />
+        <item itemvalue="Python.filepublic" />
+        <item itemvalue="Python.operationYaml" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +374,9 @@
       <workItem from="1597480516935" duration="12724000" />
       <workItem from="1598680570773" duration="8084000" />
       <workItem from="1598699274396" duration="109000" />
-      <workItem from="1598699392495" duration="2706000" />
+      <workItem from="1598699392495" duration="3194000" />
+      <workItem from="1598777078547" duration="1485000" />
+      <workItem from="1598778905271" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="增加ddt驱动模式">
       <created>1575422839077</created>
@@ -463,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598702592645</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="pycharm test first commit">
+      <created>1598703382139</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598703382139</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +534,8 @@
     <MESSAGE value="1.增加参数关联处理&#10;2.API测试结结果回写excel支持&#10;3.邮件多附件支持&#10;4.MarkDown文件更新" />
     <MESSAGE value="1.增加参数关联处理&#10;2.API测试结结果回写excel支持&#10;3.邮件多附件支持&#10;4.MarkDown文件更新&#10;5.同步Gitee" />
     <MESSAGE value="pycharm commit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="pycharm commit test" />
+    <MESSAGE value="pycharm test first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="pycharm test first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="596" y="275" key="#Notifications" timestamp="1598691008103">
@@ -529,10 +543,11 @@
     </state>
     <state x="565" y="226" key="#Notifications/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1596882904460" />
     <state x="596" y="275" key="#Notifications/0.23.1440.812@0.23.1440.812" timestamp="1598691008103" />
-    <state x="144" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598684220672">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="144" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598778029529">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1597480730915" />
+    <state x="144" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808@0.23.1440.808" timestamp="1598778029529" />
     <state x="144" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1598684220672" />
     <state x="528" y="33" key="#filepublic" timestamp="1598683044571">
       <screen x="0" y="23" width="1440" height="812" />
@@ -546,9 +561,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="#operatioYaml/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1595225778186" />
-    <state x="406" y="44" key="#operationExcel" timestamp="1598681773377">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="406" y="44" key="#operationExcel" timestamp="1598779979799">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
+    <state x="406" y="44" key="#operationExcel/0.23.1440.808@0.23.1440.808" timestamp="1598779979799" />
     <state x="406" y="44" key="#operationExcel/0.23.1440.812@0.23.1440.812" timestamp="1598681773377" />
     <state x="406" y="44" key="#operationYaml" timestamp="1598684293933">
       <screen x="0" y="23" width="1440" height="812" />
@@ -562,34 +578,42 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="575" y="166" key="EnvironmentVariablesDialog/0.23.1440.812@0.23.1440.812" timestamp="1598681212409" />
+    <state x="262" y="136" key="FileChooserDialogImpl" timestamp="1598780251604">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="262" y="136" key="FileChooserDialogImpl/0.23.1440.808@0.23.1440.808" timestamp="1598780251604" />
     <state x="577" y="333" width="285" height="280" key="Github.ShareDialog" timestamp="1598692406573">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="577" y="333" width="285" height="280" key="Github.ShareDialog/0.23.1440.812@0.23.1440.812" timestamp="1598692406573" />
-    <state width="1398" height="187" key="GridCell.Tab.0.bottom" timestamp="1598700667994">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="699" height="190" key="GridCell.Tab.0.bottom" timestamp="1598780903645">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1402" height="291" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1597493275026" />
     <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1597491605005" />
-    <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1598700667994" />
-    <state width="1398" height="187" key="GridCell.Tab.0.center" timestamp="1598700667993">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="699" height="190" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1598780903645" />
+    <state width="699" height="191" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1598704106657" />
+    <state width="699" height="190" key="GridCell.Tab.0.center" timestamp="1598780903645">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1402" height="291" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1597493275026" />
     <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1597491605005" />
-    <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1598700667993" />
-    <state width="1398" height="187" key="GridCell.Tab.0.left" timestamp="1598700667993">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="699" height="190" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1598780903645" />
+    <state width="699" height="191" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1598704106657" />
+    <state width="699" height="190" key="GridCell.Tab.0.left" timestamp="1598780903644">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1402" height="291" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1597493275026" />
     <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1597491605004" />
-    <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1598700667993" />
-    <state width="1398" height="187" key="GridCell.Tab.0.right" timestamp="1598700667993">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="699" height="190" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1598780903644" />
+    <state width="699" height="191" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1598704106657" />
+    <state width="699" height="190" key="GridCell.Tab.0.right" timestamp="1598780903645">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1402" height="291" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1597493275026" />
     <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1597491605005" />
-    <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1598700667993" />
+    <state width="699" height="190" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1598780903645" />
+    <state width="699" height="191" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1598704106657" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1597480435117">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -606,15 +630,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1597480435117" />
-    <state x="131" y="23" width="998" height="728" key="SettingsEditor" timestamp="1598703295929">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="131" y="23" width="998" height="728" key="SettingsEditor" timestamp="1598780289445">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="213" y="0" width="998" height="728" key="SettingsEditor/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1597053048764" />
+    <state x="131" y="23" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1598780289445" />
     <state x="131" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1598703295929" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1598702700355">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1598703465440">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1598702700355" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1598703465440" />
     <state x="508" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598702839801">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
@@ -625,17 +650,18 @@
     <state x="394" y="225" key="git4idea.merge.GitPullDialog/0.23.1440.812@0.23.1440.812" timestamp="1598702926368" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ApiTest_yoyo$pytest_for_test01_Testfunding_test_com.coverage" NAME="pytest for test01.Testfunding.test_com Coverage Results" MODIFIED="1597492684117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
     <SUITE FILE_PATH="coverage/ApiTest_yoyo$excelKeyWord.coverage" NAME="excelKeyWord Coverage Results" MODIFIED="1597131720739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
-    <SUITE FILE_PATH="coverage/ApiTest_yoyo$method.coverage" NAME="method Coverage Results" MODIFIED="1598681230117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
-    <SUITE FILE_PATH="coverage/ApiTest_yoyo$filepublic.coverage" NAME="filepublic Coverage Results" MODIFIED="1598684456871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
-    <SUITE FILE_PATH="coverage/ApiTest_yoyo$operationExcel.coverage" NAME="operationExcel Coverage Results" MODIFIED="1598700403364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
-    <SUITE FILE_PATH="coverage/ApiTest_yoyo$pytest_in_test01_py.coverage" NAME="pytest in test01.py Coverage Results" MODIFIED="1597493192395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
-    <SUITE FILE_PATH="coverage/ApiTest_yoyo$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1597492892874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
+    <SUITE FILE_PATH="coverage/ApiTest_yoyo$filepublic.coverage" NAME="filepublic Coverage Results" MODIFIED="1598777907770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/ApiTest_yoyo$operationExcel.coverage" NAME="operationExcel Coverage Results" MODIFIED="1598780472471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/ApiTest_yoyo$operationYaml.coverage" NAME="operationYaml Coverage Results" MODIFIED="1598685426481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
-    <SUITE FILE_PATH="coverage/ApiTest_yoyo$for_example.coverage" NAME="for_example Coverage Results" MODIFIED="1597118634840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/ApiTest_yoyo$operationYaml__1_.coverage" NAME="operationYaml (1) Coverage Results" MODIFIED="1597488120918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/ApiTest_yoyo$operationExcel_test_.coverage" NAME="operationExcel(test) Coverage Results" MODIFIED="1597488613216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/ApiTest_yoyo$pytest_for_test01_Testfunding_test_com.coverage" NAME="pytest for test01.Testfunding.test_com Coverage Results" MODIFIED="1597492684117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
+    <SUITE FILE_PATH="coverage/ApiTest_yoyo$pytest_in_for_example_py.coverage" NAME="pytest in for_example.py Coverage Results" MODIFIED="1598780654999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/ApiTest_yoyo$method.coverage" NAME="method Coverage Results" MODIFIED="1598777959242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/ApiTest_yoyo$pytest_in_test01_py.coverage" NAME="pytest in test01.py Coverage Results" MODIFIED="1597493192395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
+    <SUITE FILE_PATH="coverage/ApiTest_yoyo$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1597492892874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/web" />
+    <SUITE FILE_PATH="coverage/ApiTest_yoyo$for_example.coverage" NAME="for_example Coverage Results" MODIFIED="1597118634840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/ApiTest_yoyo$operatioYaml.coverage" NAME="operatioYaml Coverage Results" MODIFIED="1595226874935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
   </component>
 </project>

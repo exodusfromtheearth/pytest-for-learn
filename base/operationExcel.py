@@ -45,7 +45,7 @@ class OperationExcel(OperationYaml):
         return self.getsheet().cell_value(row, TestCaseKeyWord().data)
 
     def get_case_json(self, row):
-        return self.readyaml(filepath(self.fileroot, self.yamlname))[int(self.get_case_data(row))]
+        return self.readyaml(self.fileroot, self.yamlname)[int(self.get_case_data(row))]
 
 # 预期结果这样处理也是可以的啊---------------------------------
     def get_case_expect(self, row):
