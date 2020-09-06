@@ -9,10 +9,10 @@ class OperationYaml:
             return list(yaml.safe_load_all(f))
 
 # obj = OperationYaml()
-# f = obj.readyaml('data/Arrow', 'fundingcase.yaml')
+# f = obj.readyaml('data', 'test.yaml')
 # print(f[0])
 # print(f[2])
-#
+
 # for item in f:
 #     print(item)
 

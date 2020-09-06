@@ -1,0 +1,54 @@
+---
+#funding_list_0:
+  para:
+    type: all
+    status: source
+  expect: 等待认领
+---
+#funding_list_1:
+  para:
+    type: all
+    status: interesting
+  expect: BD阶段
+---
+#funding_list_2:
+  para:
+    type: all
+    status: pursue
+  expect: 准备启动
+---
+#funding_list_3:
+  para:
+    type: all
+    status: execution
+  expect: 正在执行
+---
+#funding_list_4:
+  para:
+    type: all
+    status: closing
+  expect: 收费中
+---
+#create_funding_5
+  para:
+    later: true
+    funding[company_id]: 160057
+    funding[is_open]: true
+    funding[category]: 1
+    funding[funding_type]: 11
+    funding[amount_level]: 99
+    funding[currency]: 1
+    funding[round_id]: 1
+    source[source_type]: 1
+    funding[is_listed]: false
+    is_cue_company: false
+  expect: 等待认领
+---
+#funding_info_6
+  para:
+  expect: 等待认领
+---
+#edit_funding_7
+  para:
+    overview: autotest overview content
+  expect: 200

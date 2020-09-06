@@ -33,16 +33,18 @@ class Requests:
         return self.request(url=url, method="delete", **kwargs)
 
 
+
 # if __name__ == "__main__":
 #     obj = Requests()
 #     url1 = readConfig.host+"/api/v2/fundings/get_funding_list"
-#     data1 = {"type": "mine", "status": "execution"}
+#     data1 = {'type': 'all', 'status': 'execution'}
 #     header1 = {
 #         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36",
 #         "Accept": "application/json",
 #         # "Content-Type": "application/json",
 #         "Cookie": readConfig.cookie
 #     }
-#     r = obj.request(url=url1, data=data1, headers=header1)
+#     r = obj.request(url=url1, data=data1, headers=header1, method="get")
+#     assert "正在执行" in json.dumps(r.json(), ensure_ascii=False)
 #     print(r.text)
 

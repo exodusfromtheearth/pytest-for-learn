@@ -83,7 +83,7 @@ objYaml = OperationYaml()
 
 
 # list循环赋值给参数
-@pytest.mark.parametrize('testcase', objYaml.readyaml("test.yaml"))
+@pytest.mark.parametrize('testcase', objYaml.readyaml("data", "test.yaml"))
 def test_user(testcase):
     header1 = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36",
@@ -91,11 +91,10 @@ def test_user(testcase):
         "Content-Type": testcase["header"],
         "Cookie": readConfig.cookie
     }
-    r = obj.request(url=testcase["url"], json=testcase["data"], method=testcase["method"], headers=header1)
+    r = obj.request(url=testcase["url"], data=testcase["data"], method=testcase["method"], headers=header1)
     assert(testcase["expect"] in r.text)
     print(r.status_code)
 
 
 if __name__ == "__main__":
     pytest.main(["-s", "for_example.py"])
-

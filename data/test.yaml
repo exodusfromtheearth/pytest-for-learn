@@ -1,17 +1,19 @@
 #for example
 #funding
-  url: http://test5.huaxing.com/api/v2/fundings/get_funding_list
+  url: http://test7.huaxing.com/api/v2/fundings/get_funding_list
+  header: application/json
   method: get
   data:
     type: mine
-    status: execution
-  expect: zhunbeiqidong
+    status: pursue
+  expect: 准备启动
 ---
-  url: http://test5.huaxing.com/api/v2/fundings/get_funding_list
+  url: http://test7.huaxing.com/api/v2/fundings/get_funding_list
+  header: application/json
   method: get
   data:
     type: all
     status: execution
-  expect: zhunbeiqidong
+  expect: 正在执行
 
 
